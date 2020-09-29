@@ -59,7 +59,7 @@ public class AnonymousUserData {
     }
 
     /* package */ void setBaseUrl(String url) {
-        BASE_URL = url;
+        this.BASE_URL = url;
     }
 
     /* package */ void setResponseRequester(ResponseRequester responseRequester) {
