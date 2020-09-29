@@ -58,10 +58,6 @@ public class AnonymousUserData {
         return instance;
     }
 
-    /* package */ String getBaseUrl() {
-        return BASE_URL;
-    }
-
     /* package */ void setBaseUrl(String url) {
         BASE_URL = url;
     }
